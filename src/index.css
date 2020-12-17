@@ -18,6 +18,7 @@ code {
   position: absolute;
   text-align: left;
   width: 100%;
+  background-color: white;
 }
 
 /* #hoverable Class Styles */
