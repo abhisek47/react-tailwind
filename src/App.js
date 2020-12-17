@@ -1,6 +1,7 @@
 import Banner from './components/banner';
 import Header from './components/header';
 import Statistic from './components/statistic';
+import Support from './components/support';
 import './styles/main.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Header />
       <Banner />
+      <Support />
       <Statistic />
     </div>
   );
