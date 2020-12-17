@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-tailwind/static/css/main.2e875f92.chunk.css",
-    "main.js": "/react-tailwind/static/js/main.1a922f77.chunk.js",
-    "main.js.map": "/react-tailwind/static/js/main.1a922f77.chunk.js.map",
+    "main.css": "/react-tailwind/static/css/main.30c55f80.chunk.css",
+    "main.js": "/react-tailwind/static/js/main.7b79683b.chunk.js",
+    "main.js.map": "/react-tailwind/static/js/main.7b79683b.chunk.js.map",
     "runtime-main.js": "/react-tailwind/static/js/runtime-main.ad0a78c4.js",
     "runtime-main.js.map": "/react-tailwind/static/js/runtime-main.ad0a78c4.js.map",
     "static/js/2.0bc833ac.chunk.js": "/react-tailwind/static/js/2.0bc833ac.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.7681a9e1.chunk.js": "/react-tailwind/static/js/3.7681a9e1.chunk.js",
     "static/js/3.7681a9e1.chunk.js.map": "/react-tailwind/static/js/3.7681a9e1.chunk.js.map",
     "index.html": "/react-tailwind/index.html",
-    "static/css/main.2e875f92.chunk.css.map": "/react-tailwind/static/css/main.2e875f92.chunk.css.map",
-    "static/js/2.0bc833ac.chunk.js.LICENSE.txt": "/react-tailwind/static/js/2.0bc833ac.chunk.js.LICENSE.txt"
+    "static/css/main.30c55f80.chunk.css.map": "/react-tailwind/static/css/main.30c55f80.chunk.css.map",
+    "static/js/2.0bc833ac.chunk.js.LICENSE.txt": "/react-tailwind/static/js/2.0bc833ac.chunk.js.LICENSE.txt",
+    "static/media/boost.3b6b2212.png": "/react-tailwind/static/media/boost.3b6b2212.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ad0a78c4.js",
     "static/js/2.0bc833ac.chunk.js",
-    "static/css/main.2e875f92.chunk.css",
-    "static/js/main.1a922f77.chunk.js"
+    "static/css/main.30c55f80.chunk.css",
+    "static/js/main.7b79683b.chunk.js"
   ]
 }
