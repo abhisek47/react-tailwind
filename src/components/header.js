@@ -7,18 +7,16 @@ const Header = () => {
       <nav className='bg-white border-b-2 border-gray-100 text-gray-900'>
         <div className='container mx-auto flex flex-row justify-between aligns-center'>
           <div className='block p-5 text-xl text-teal-600 font-bold'>
-            <a href='/#' className='hover:text-teal-900'>
+            <a href='/' className='hover:text-teal-900'>
               ClientFilingIndia
             </a>
           </div>
           <div>
             <ul className='flex'>
               <li className='hoverable hover:bg-teal-700 hover:text-black'>
-                <a
-                  href='/'
-                  className='relative block py-6 px-6 lg:p-6 text-sm lg:text-base font-bold hover:bg-teal-700 hover:text-black'>
+                <div className='relative block py-6 px-6 lg:p-6 text-sm lg:text-base font-bold hover:bg-teal-700 hover:text-black pointer-events-none'>
                   Services
-                </a>
+                </div>
                 <div className='p-6 mega-menu mb-16 sm:mb-0 shadow-xl bg-teal-700'>
                   <div className='container mx-auto w-full flex flex-wrap justify-between mx-2'>
                     <ul className='px-4 w-full sm:w-1/2 lg:w-1/4 border-gray-600 border-b sm:border-r lg:border-b-0 pb-6 pt-6 lg:pt-3'>

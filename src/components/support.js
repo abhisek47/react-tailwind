@@ -37,7 +37,9 @@ const Support = () => {
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
-                <a className='mt-3 text-indigo-500 inline-flex items-center'>
+                <a
+                  className='mt-3 text-indigo-500 inline-flex items-center'
+                  href='/#'>
                   Learn More
                   <svg
                     fill='none'
@@ -78,7 +80,9 @@ const Support = () => {
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
-                <a className='mt-3 text-indigo-500 inline-flex items-center'>
+                <a
+                  className='mt-3 text-indigo-500 inline-flex items-center'
+                  href='/#'>
                   Learn More
                   <svg
                     fill='none'
@@ -120,7 +124,9 @@ const Support = () => {
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine.
                 </p>
-                <a className='mt-3 text-indigo-500 inline-flex items-center'>
+                <a
+                  className='mt-3 text-indigo-500 inline-flex items-center'
+                  href='/#'>
                   Learn More
                   <svg
                     fill='none'
