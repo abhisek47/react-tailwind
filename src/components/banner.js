@@ -4,7 +4,7 @@ import banner from '../assets/boost.png';
 const Banner = () => {
   return (
     <section className='text-gray-700 body-font'>
-      <div className='container mx-auto flex px-5 py-10 md:flex-row flex-col items-center'>
+      <div className='container mx-auto flex px-5 py-5 md:flex-row flex-col items-center'>
         <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center font-medium'>
           <h1 className='title-font text-4xl xl:text-6xl mb-4 font-medium text-gray-900'>
             We are helping startup to grow your business

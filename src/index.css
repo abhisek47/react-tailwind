@@ -26,7 +26,7 @@ code {
   position: static;
 }
 
-.hoverable > a:after {
+.hoverable > span:after {
   content: '\25BC';
   font-size: 10px;
   padding-left: 6px;
