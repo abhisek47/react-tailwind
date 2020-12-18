@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-tailwind/static/css/main.b3a928b9.chunk.css",
-    "main.js": "/react-tailwind/static/js/main.e4ee3945.chunk.js",
-    "main.js.map": "/react-tailwind/static/js/main.e4ee3945.chunk.js.map",
-    "runtime-main.js": "/react-tailwind/static/js/runtime-main.ad0a78c4.js",
-    "runtime-main.js.map": "/react-tailwind/static/js/runtime-main.ad0a78c4.js.map",
-    "static/js/2.0bc833ac.chunk.js": "/react-tailwind/static/js/2.0bc833ac.chunk.js",
-    "static/js/2.0bc833ac.chunk.js.map": "/react-tailwind/static/js/2.0bc833ac.chunk.js.map",
-    "static/js/3.7681a9e1.chunk.js": "/react-tailwind/static/js/3.7681a9e1.chunk.js",
-    "static/js/3.7681a9e1.chunk.js.map": "/react-tailwind/static/js/3.7681a9e1.chunk.js.map",
+    "main.css": "/react-tailwind/static/css/main.30c55f80.chunk.css",
+    "main.js": "/react-tailwind/static/js/main.509067b2.chunk.js",
+    "main.js.map": "/react-tailwind/static/js/main.509067b2.chunk.js.map",
+    "runtime-main.js": "/react-tailwind/static/js/runtime-main.8b81e2c9.js",
+    "runtime-main.js.map": "/react-tailwind/static/js/runtime-main.8b81e2c9.js.map",
+    "static/js/2.d10b39ac.chunk.js": "/react-tailwind/static/js/2.d10b39ac.chunk.js",
+    "static/js/2.d10b39ac.chunk.js.map": "/react-tailwind/static/js/2.d10b39ac.chunk.js.map",
+    "static/js/3.871c60ec.chunk.js": "/react-tailwind/static/js/3.871c60ec.chunk.js",
+    "static/js/3.871c60ec.chunk.js.map": "/react-tailwind/static/js/3.871c60ec.chunk.js.map",
     "index.html": "/react-tailwind/index.html",
-    "static/css/main.b3a928b9.chunk.css.map": "/react-tailwind/static/css/main.b3a928b9.chunk.css.map",
-    "static/js/2.0bc833ac.chunk.js.LICENSE.txt": "/react-tailwind/static/js/2.0bc833ac.chunk.js.LICENSE.txt",
+    "static/css/main.30c55f80.chunk.css.map": "/react-tailwind/static/css/main.30c55f80.chunk.css.map",
+    "static/js/2.d10b39ac.chunk.js.LICENSE.txt": "/react-tailwind/static/js/2.d10b39ac.chunk.js.LICENSE.txt",
     "static/media/boost.3b6b2212.png": "/react-tailwind/static/media/boost.3b6b2212.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ad0a78c4.js",
-    "static/js/2.0bc833ac.chunk.js",
-    "static/css/main.b3a928b9.chunk.css",
-    "static/js/main.e4ee3945.chunk.js"
+    "static/js/runtime-main.8b81e2c9.js",
+    "static/js/2.d10b39ac.chunk.js",
+    "static/css/main.30c55f80.chunk.css",
+    "static/js/main.509067b2.chunk.js"
   ]
 }
