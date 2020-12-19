@@ -144,11 +144,11 @@ const Header = () => {
       <Transition
         show={isOpen}
         enter='duration-150 ease-out'
-        enterFrom='opacity-0 scale-95'
+        enterFrom='opacity-100 scale-90'
         enterTo='opacity-100 scale-100'
         leave='duration-100 ease-in'
         leaveFrom='opacity-100 scale-100'
-        leaveTo='opacity-0 scale-95'>
+        leaveTo='opacity-100 scale-90'>
         <div className='absolute top-0 p-2 transition transform origin-top-right md:hidden overflow-auto h-screen z-50'>
           <div className='rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-auto'>
             <div className='px-5 pt-4 flex items-center justify-between'>
@@ -189,7 +189,7 @@ const Header = () => {
               <div role='none'>
                 <a
                   href='/'
-                  className='block w-full px-5 py-3 text-center font-medium text-white bg-indigo-600 hover:bg-indigo-700'
+                  className='block w-full mx-auto px-5 py-3 text-center font-medium text-white bg-indigo-500 hover:bg-indigo-600'
                   role='menuitem'>
                   Sign up
                 </a>

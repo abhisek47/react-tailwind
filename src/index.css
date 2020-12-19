@@ -85,6 +85,10 @@ code {
   );
 }
 
+.banner h1 {
+  position: relative;
+}
+
 .banner h1 .line-wrap {
   overflow: hidden;
   height: fit-content;
