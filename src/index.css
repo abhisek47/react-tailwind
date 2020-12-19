@@ -19,6 +19,7 @@ code {
   text-align: left;
   width: 100%;
   background-color: white;
+  z-index: 1;
 }
 
 /* #hoverable Class Styles */
@@ -36,6 +37,7 @@ code {
 
 .hoverable:hover .mega-menu {
   display: block;
+  z-index: 1;
 }
 
 /* #toggle Class Styles */
@@ -70,4 +72,25 @@ code {
   padding-left: 6px;
   position: relative;
   top: -1px;
+}
+
+.banner {
+  background-image: linear-gradient(
+    to right bottom,
+    #021f96,
+    #2831a9,
+    #4043bd,
+    #5456d1,
+    #6869e5
+  );
+}
+
+.banner h1 .line-wrap {
+  overflow: hidden;
+  height: fit-content;
+  line-height: initial;
+}
+
+.banner p {
+  opacity: 0;
 }

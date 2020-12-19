@@ -5,7 +5,7 @@ const MenuItem = ({ title, link }) => {
     <React.Fragment>
       <a
         href={`/${link}`}
-        className='block py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50'
+        className='block py-2 rounded-md text-sm font-medium text-gray-700 hover:text-indigo-700'
         role='menuitem'>
         {title}
       </a>

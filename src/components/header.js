@@ -105,7 +105,7 @@ const Header = () => {
             <button
               onClick={() => setIsOpen((tf) => !tf)}
               type='button'
-              className='bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500'
+              className='bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none'
               id='main-menu'
               aria-haspopup='true'>
               <span className='sr-only'>Open main menu</span>
@@ -138,73 +138,73 @@ const Header = () => {
               Sign up
             </a>
           </div>
-          {/* menu */}
-          <Transition
-            show={isOpen}
-            enter='duration-150 ease-out'
-            enterFrom='opacity-0 scale-95'
-            enterTo='opacity-100 scale-100'
-            leave='duration-100 ease-in'
-            leaveFrom='opacity-100 scale-100'
-            leaveTo='opacity-0 scale-95'>
-            <div className='absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden overflow-auto h-screen'>
-              <div className='rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden'>
-                <div className='px-5 pt-4 flex items-center justify-between'>
-                  <div className='block  text-xl text-teal-600 font-bold'>
-                    <a href='/' className='hover:text-teal-900'>
-                      ClientFilingIndia
-                    </a>
-                  </div>
-                  <div className='-mr-2'>
-                    <button
-                      type='button'
-                      onClick={() => setIsOpen((tf) => !tf)}
-                      className='bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500'>
-                      <span className='sr-only'>Close main menu</span>
-                      {/* Heroicon name: x */}
-                      <svg
-                        className='h-6 w-6'
-                        xmlns='http://www.w3.org/2000/svg'
-                        fill='none'
-                        viewBox='0 0 24 24'
-                        stroke='currentColor'
-                        aria-hidden='true'>
-                        <path
-                          strokeLinecap='round'
-                          strokeLinejoin='round'
-                          strokeWidth='2'
-                          d='M6 18L18 6M6 6l12 12'
-                        />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-                <div
-                  role='menu'
-                  aria-orientation='vertical'
-                  aria-labelledby='main-menu'>
-                  <SideMenu />
-                  <div role='none'>
-                    <a
-                      href='/'
-                      className='block w-full px-5 py-3 text-center font-medium text-white bg-indigo-600 hover:bg-indigo-700'
-                      role='menuitem'>
-                      Sign up
-                    </a>
-                    <a
-                      href='/'
-                      className='block w-full px-5 py-5 text-center font-medium text-black bg-gray-50 hover:bg-gray-100'
-                      role='menuitem'>
-                      Exciting customer ?
-                      <span className='pl-2 text-indigo-600'>Sign in</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Transition>
         </div>
       </nav>
+      {/* menu */}
+      <Transition
+        show={isOpen}
+        enter='duration-150 ease-out'
+        enterFrom='opacity-0 scale-95'
+        enterTo='opacity-100 scale-100'
+        leave='duration-100 ease-in'
+        leaveFrom='opacity-100 scale-100'
+        leaveTo='opacity-0 scale-95'>
+        <div className='absolute top-0 p-2 transition transform origin-top-right md:hidden overflow-auto h-screen z-50'>
+          <div className='rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-auto'>
+            <div className='px-5 pt-4 flex items-center justify-between'>
+              <div className='block text-xl text-teal-600 font-bold'>
+                <a href='/' className='hover:text-teal-900'>
+                  ClientFilingIndia
+                </a>
+              </div>
+              <div className='-mr-2'>
+                <button
+                  type='button'
+                  onClick={() => setIsOpen((tf) => !tf)}
+                  className='bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none'>
+                  <span className='sr-only'>Close main menu</span>
+                  {/* Heroicon name: x */}
+                  <svg
+                    className='h-6 w-6'
+                    xmlns='http://www.w3.org/2000/svg'
+                    fill='none'
+                    viewBox='0 0 24 24'
+                    stroke='currentColor'
+                    aria-hidden='true'>
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth='2'
+                      d='M6 18L18 6M6 6l12 12'
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div
+              role='menu'
+              aria-orientation='vertical'
+              aria-labelledby='main-menu'>
+              <SideMenu />
+              <div role='none'>
+                <a
+                  href='/'
+                  className='block w-full px-5 py-3 text-center font-medium text-white bg-indigo-600 hover:bg-indigo-700'
+                  role='menuitem'>
+                  Sign up
+                </a>
+                <a
+                  href='/'
+                  className='block w-full px-5 py-5 text-center font-medium text-black bg-gray-50 hover:bg-gray-100'
+                  role='menuitem'>
+                  Exciting customer ?
+                  <span className='pl-2 text-indigo-600'>Sign in</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Transition>
     </div>
   );
 };
