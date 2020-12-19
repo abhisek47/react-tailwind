@@ -17,25 +17,25 @@ const Statistic = () => {
           </div>
           <div className='p-4 sm:w-1/2 lg:w-1/4 w-1/2'>
             <h2 className='title-font font-medium text-3xl text-gray-900'>
-              2.7K
+              2013
             </h2>
-            <p className='leading-relaxed'>Users</p>
+            <p className='leading-relaxed'>Company Established</p>
           </div>
           <div className='p-4 sm:w-1/2 lg:w-1/4 w-1/2'>
             <h2 className='title-font font-medium text-3xl text-gray-900'>
-              1.8K
+              4.5K
             </h2>
-            <p className='leading-relaxed'>Subscribes</p>
+            <p className='leading-relaxed'>Happy Clientele</p>
           </div>
           <div className='p-4 sm:w-1/2 lg:w-1/4 w-1/2'>
             <h2 className='title-font font-medium text-3xl text-gray-900'>
               35
             </h2>
-            <p className='leading-relaxed'>Downloads</p>
+            <p className='leading-relaxed'>Staff Members</p>
           </div>
           <div className='p-4 sm:w-1/2 lg:w-1/4 w-1/2'>
             <h2 className='title-font font-medium text-3xl text-gray-900'>4</h2>
-            <p className='leading-relaxed'>Products</p>
+            <p className='leading-relaxed'>Offices Available</p>
           </div>
         </div>
         <div className='lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0'>
