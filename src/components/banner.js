@@ -53,7 +53,7 @@ const Banner = () => {
               Get started
             </button>
             <button className='ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg font-medium'>
-              Call us
+              Let's talk
             </button>
           </div>
         </div>

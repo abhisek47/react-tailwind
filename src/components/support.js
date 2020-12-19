@@ -6,10 +6,10 @@ const Support = () => {
       <div className='container px-5 py-5 mx-auto'>
         <div className='flex flex-col text-center w-full mb-20'>
           <h2 className='text-xs text-indigo-500 tracking-widest font-medium title-font my-5'>
-            ROOF PARTY POLAROID
+            OUR POPULAR SERVICES
           </h2>
           <h1 className='sm:text-3xl text-2xl font-medium title-font text-gray-900'>
-            Master Cleanse Reliac Heirloom
+            We Provided Multi Professional Services
           </h1>
         </div>
         <div className='flex flex-wrap -m-4'>
@@ -25,22 +25,27 @@ const Support = () => {
                     strokeWidth='2'
                     className='w-5 h-5'
                     viewBox='0 0 24 24'>
-                    <path d='M22 12h-4l-3 9L9 3l-3 9H2'></path>
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth='2'
+                      d='M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z'
+                    />
                   </svg>
                 </div>
                 <h2 className='text-gray-900 text-lg title-font font-medium'>
-                  Shooting Stars
+                  Company Registration
                 </h2>
               </div>
               <div className='flex-grow'>
                 <p className='leading-relaxed text-base'>
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine.
+                  Company is registered under ministry of corporate affairs
+                  allowing to function with separate identity.
                 </p>
                 <a
                   className='mt-3 text-indigo-500 inline-flex items-center'
                   href='/#'>
-                  Learn More
+                  Apply now
                   <svg
                     fill='none'
                     stroke='currentColor'
@@ -67,23 +72,27 @@ const Support = () => {
                     strokeWidth='2'
                     className='w-5 h-5'
                     viewBox='0 0 24 24'>
-                    <path d='M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2'></path>
-                    <circle cx='12' cy='7' r='4'></circle>
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth='2'
+                      d='M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z'
+                    />
                   </svg>
                 </div>
                 <h2 className='text-gray-900 text-lg title-font font-medium'>
-                  The Catalyzer
+                  GST Registration & Return
                 </h2>
               </div>
               <div className='flex-grow'>
                 <p className='leading-relaxed text-base'>
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine.
+                  Every business or corporation that are involved in buying and
+                  selling of goods and services have to register for GST.
                 </p>
                 <a
                   className='mt-3 text-indigo-500 inline-flex items-center'
                   href='/#'>
-                  Learn More
+                  Apply now
                   <svg
                     fill='none'
                     stroke='currentColor'
@@ -110,24 +119,27 @@ const Support = () => {
                     strokeWidth='2'
                     className='w-5 h-5'
                     viewBox='0 0 24 24'>
-                    <circle cx='6' cy='6' r='3'></circle>
-                    <circle cx='6' cy='18' r='3'></circle>
-                    <path d='M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12'></path>
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth='2'
+                      d='M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z'
+                    />
                   </svg>
                 </div>
                 <h2 className='text-gray-900 text-lg title-font font-medium'>
-                  Neptune
+                  Income Tax Return
                 </h2>
               </div>
               <div className='flex-grow'>
                 <p className='leading-relaxed text-base'>
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine.
+                  The Income Tax Department is a government agency undertaking
+                  direct tax collection of the Government of India.
                 </p>
                 <a
                   className='mt-3 text-indigo-500 inline-flex items-center'
                   href='/#'>
-                  Learn More
+                  Apply now
                   <svg
                     fill='none'
                     stroke='currentColor'

@@ -1,11 +1,12 @@
 import React from 'react';
+import ReactPlayer from 'react-player';
 
 const Statistic = () => {
   return (
     <section className='text-gray-700 body-font'>
       <div className='container px-5 py-10 mx-auto flex flex-wrap justify-between'>
         <div className='flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10'>
-          <div className='w-full sm:p-4 px-4 mb-6'>
+          <div className='w-full  px-4 mb-6 hidden lg:block'>
             <h1 className='title-font font-medium text-xl mb-2 text-gray-900'>
               Moon hashtag pop-up try-hard offal truffaut
             </h1>
@@ -38,11 +39,11 @@ const Statistic = () => {
           </div>
         </div>
         <div className='lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0'>
-          <img
-            className='object-cover object-center w-full h-full'
-            src='https://dummyimage.com/600x300'
-            alt='stats'
-          />
+          <div className='video'>
+            <ReactPlayer
+              width='100%'
+              url='https://vimeo.com/489742495'></ReactPlayer>
+          </div>
         </div>
       </div>
     </section>
