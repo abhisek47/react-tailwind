@@ -6,10 +6,10 @@ const Support = () => {
       <div className='container px-5 py-5 mx-auto'>
         <div className='flex flex-col text-center w-full mb-20'>
           <h2 className='text-xs text-indigo-500 tracking-widest font-medium title-font my-5'>
-            OUR POPULAR SERVICES
+            OUR BUSINESS SUPPORT
           </h2>
           <h1 className='sm:text-3xl text-2xl font-medium title-font text-gray-900'>
-            We Provided Multi Professional Services
+            Drive Your Business Forward
           </h1>
         </div>
         <div className='flex flex-wrap -m-4'>
@@ -34,29 +34,14 @@ const Support = () => {
                   </svg>
                 </div>
                 <h2 className='text-gray-900 text-lg title-font font-medium'>
-                  Company Registration
+                  VIBRANT TEAM
                 </h2>
               </div>
               <div className='flex-grow'>
                 <p className='leading-relaxed text-base'>
-                  Company is registered under ministry of corporate affairs
-                  allowing to function with separate identity.
+                  A talented workforce that works in collaboration with a
+                  network of over 6000+ Professionals.
                 </p>
-                <a
-                  className='mt-3 text-indigo-500 inline-flex items-center'
-                  href='/#'>
-                  Apply now
-                  <svg
-                    fill='none'
-                    stroke='currentColor'
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    strokeWidth='2'
-                    className='w-4 h-4 ml-2'
-                    viewBox='0 0 24 24'>
-                    <path d='M5 12h14M12 5l7 7-7 7'></path>
-                  </svg>
-                </a>
               </div>
             </div>
           </div>
@@ -81,29 +66,14 @@ const Support = () => {
                   </svg>
                 </div>
                 <h2 className='text-gray-900 text-lg title-font font-medium'>
-                  GST Registration & Return
+                  CUSTOMER SUPPORT
                 </h2>
               </div>
               <div className='flex-grow'>
                 <p className='leading-relaxed text-base'>
-                  Every business or corporation that are involved in buying and
-                  selling of goods and services have to register for GST.
+                  Our team is available from 10 am - 6 pm, except sunday and
+                  government holidays.
                 </p>
-                <a
-                  className='mt-3 text-indigo-500 inline-flex items-center'
-                  href='/#'>
-                  Apply now
-                  <svg
-                    fill='none'
-                    stroke='currentColor'
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    strokeWidth='2'
-                    className='w-4 h-4 ml-2'
-                    viewBox='0 0 24 24'>
-                    <path d='M5 12h14M12 5l7 7-7 7'></path>
-                  </svg>
-                </a>
               </div>
             </div>
           </div>
@@ -128,29 +98,14 @@ const Support = () => {
                   </svg>
                 </div>
                 <h2 className='text-gray-900 text-lg title-font font-medium'>
-                  Income Tax Return
+                  SECURE PAYMENT
                 </h2>
               </div>
               <div className='flex-grow'>
                 <p className='leading-relaxed text-base'>
-                  The Income Tax Department is a government agency undertaking
-                  direct tax collection of the Government of India.
+                  Easily pay online with EMI payments, credit or debit card, net
+                  banking, PayPal and more.
                 </p>
-                <a
-                  className='mt-3 text-indigo-500 inline-flex items-center'
-                  href='/#'>
-                  Apply now
-                  <svg
-                    fill='none'
-                    stroke='currentColor'
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    strokeWidth='2'
-                    className='w-4 h-4 ml-2'
-                    viewBox='0 0 24 24'>
-                    <path d='M5 12h14M12 5l7 7-7 7'></path>
-                  </svg>
-                </a>
               </div>
             </div>
           </div>

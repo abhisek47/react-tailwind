@@ -1,5 +1,6 @@
 import Banner from './components/banner';
 import Header from './components/header';
+import Pricing from './components/pricing';
 import Service from './components/service';
 import Statistic from './components/statistic';
 import Support from './components/support';
@@ -13,6 +14,7 @@ function App() {
       <Support />
       <Statistic />
       <Service />
+      <Pricing />
     </div>
   );
 }
