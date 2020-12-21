@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-tailwind/static/css/main.099bf455.chunk.css",
-    "main.js": "/react-tailwind/static/js/main.c4011358.chunk.js",
-    "main.js.map": "/react-tailwind/static/js/main.c4011358.chunk.js.map",
+    "main.js": "/react-tailwind/static/js/main.5431147e.chunk.js",
+    "main.js.map": "/react-tailwind/static/js/main.5431147e.chunk.js.map",
     "runtime-main.js": "/react-tailwind/static/js/runtime-main.134b7484.js",
     "runtime-main.js.map": "/react-tailwind/static/js/runtime-main.134b7484.js.map",
     "static/js/2.c55ebbc3.chunk.js": "/react-tailwind/static/js/2.c55ebbc3.chunk.js",
@@ -16,12 +16,14 @@
     "static/media/s1.3e081271.png": "/react-tailwind/static/media/s1.3e081271.png",
     "static/media/s2.f2d40c26.png": "/react-tailwind/static/media/s2.f2d40c26.png",
     "static/media/s3.606af132.png": "/react-tailwind/static/media/s3.606af132.png",
-    "static/media/s4.06adaba0.png": "/react-tailwind/static/media/s4.06adaba0.png"
+    "static/media/s4.06adaba0.png": "/react-tailwind/static/media/s4.06adaba0.png",
+    "static/media/s5.d22beb92.png": "/react-tailwind/static/media/s5.d22beb92.png",
+    "static/media/s6.df4186c0.png": "/react-tailwind/static/media/s6.df4186c0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.134b7484.js",
     "static/js/2.c55ebbc3.chunk.js",
     "static/css/main.099bf455.chunk.css",
-    "static/js/main.c4011358.chunk.js"
+    "static/js/main.5431147e.chunk.js"
   ]
 }
