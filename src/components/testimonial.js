@@ -9,7 +9,7 @@ const Testimonial = () => {
         </h1>
         <div className='flex flex-wrap -m-4'>
           <div className='p-4 md:w-1/2 w-full'>
-            <div className='h-full bg-gray-200 p-8 rounded'>
+            <div className='h-full bg-gray-100 p-8 rounded'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 fill='currentColor'
@@ -39,7 +39,7 @@ const Testimonial = () => {
             </div>
           </div>
           <div className='p-4 md:w-1/2 w-full'>
-            <div className='h-full bg-gray-200 p-8 rounded'>
+            <div className='h-full bg-gray-100 p-8 rounded'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 fill='currentColor'
