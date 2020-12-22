@@ -55,7 +55,7 @@ const PriceHead = ({ title, price, ftOne, ftTwo, ftThree }) => {
           </span>
           {ftThree}
         </p>
-        <button className='flex items-center mt-auto text-white bg-gray-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-600 rounded'>
+        <button className='flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded'>
           Buy now
           <svg
             fill='none'

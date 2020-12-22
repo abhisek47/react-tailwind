@@ -52,7 +52,7 @@ const Banner = () => {
             <button className='inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg font-medium'>
               Get started
             </button>
-            <button className='ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg font-medium'>
+            <button className='ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg font-medium'>
               Let's talk
             </button>
           </div>
@@ -64,6 +64,21 @@ const Banner = () => {
             src={banner}
           />
         </div>
+      </div>
+      <div className='w-10 mx-auto'>
+        <svg
+          className='animate-bounce w-6 h-10 my-5 mx-auto'
+          xmlns='http://www.w3.org/2000/svg'
+          fill='none'
+          viewBox='0 0 24 24'
+          stroke='currentColor'>
+          <path
+            strokeLinecap='round'
+            strokeLinejoin='round'
+            strokeWidth='2'
+            d='M19 14l-7 7m0 0l-7-7m7 7V3'
+          />
+        </svg>
       </div>
     </section>
   );

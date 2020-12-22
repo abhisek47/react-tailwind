@@ -9,7 +9,7 @@ const ServiceItem = ({ img, title, des, link }) => {
           className='absolute inset-0 w-full h-64 object-cover object-center'
           src={img}
         />
-        <div className='px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 h-64'>
+        <div className='px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 h-64 transition duration-500 ease-in-out'>
           <h1 className='title-font text-lg font-medium text-gray-900 mb-3'>
             {title}
           </h1>
